@@ -1,0 +1,36 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input{
+    margin: 0px 20px;
+    height: 40px;
+    border-radius: 5px;
+    background: #f2f2f2;
+    width: 30%;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.btn{
+    margin-left: 20px;
+  background: rgb(61, 18, 214);
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(86, 51, 212);
+}

@@ -1,0 +1,23 @@
+<html lang='pt-br'>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset='utf-8' />
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js'></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,700;1,300&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <div class="search">
+    <input type="text" placeholder="Digite o nome do evento" class="event" id="evento">
+    <input type="date" class="event">
+    <button class="btn" onclick="enviarAPI()">Enviar</button>
+  </div>
+  <div id='calendar'></div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
